@@ -1,15 +1,15 @@
 body {
     position: relative;
-    width: 1400px;
-    height: 3843px;
+    width: 100%;
+
 
     background: #FFFFFF;
 }
 
 .flex-head {
     position: relative;
-    width: 1400px;
-    
+
+
     background: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +21,7 @@ body {
 
 .nav {
     position: absolute;
-    width: 1400px;
+
     height: 78px;
     left: 0px;
     top: 20px;
@@ -39,15 +39,11 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
-    /* identical to box height, or 200% */
-
-
     color: #2F281E;
     display: inline-flex;
     flex-wrap: initial;
     align-items: flex-start;
     flex-direction: row;
-    /* identical to box height, or 200% */
     color: #2F281E;
     transform: translateX(10px);
 }
@@ -56,22 +52,16 @@ body {
 
     position: relative;
     height: 24px;
-
     width: 93px;
     left: 41px;
     top: 15px;
     border-radius: nullpx;
-
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 24px;
-    /* identical to box height */
-
     border-radius: 4px;
-
     color: #173A56;
     transform: translateX(240px)
 }
@@ -79,20 +69,15 @@ body {
 .btn-signup {
     position: relative;
     height: 24px;
-
     width: 93px;
     left: 41px;
     top: 15px;
     border-radius: nullpx;
-
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 24px;
-    /* identical to box height */
-
     color: #FFFFFF;
     background: #FF9900;
     border-radius: 4px;
@@ -101,16 +86,12 @@ body {
 }
 
 .headone {
-   
-    width: 1126px;
     height: 496px;
     left: 145px;
-
-    
 }
 
 .leftside {
-   position:absolute;
+    position: absolute;
     width: 300px;
     height: 331px;
     left: 45px;
@@ -120,37 +101,31 @@ body {
 .btn-getstarted {
     position: static;
     height: 24px;
-
     width: 93px;
     left: 41px;
     top: 15px;
     border-radius: nullpx;
-
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 24px;
-    /* identical to box height */
-
-
     color: #FFFFFF;
     background: #FF9900;
     border-radius: 4px;
 
 }
+
 .btn-watchvideo {
-   
+
     width: 161px;
     height: 23px;
-   border: none;
+    border: none;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
     text-decoration-line: underline;
     color: #FF9900;
 }
@@ -163,106 +138,108 @@ body {
     top: 100px;
 }
 
-.feature {
-    position: absolute;
-width: 2211px;
-height: 543px;
-left: -406px;
-top: 734px;
-
-}
-
-.card {
-position: relative;
-width: 2211px;
-height: 543px;
-left: -406px;
-top: 162px;
-
-}
-
-.icon1 {
-    position: static;
-    left: 25.64%;
-    right: 72.05%;
-    top: 29.83%;
-    bottom: 60.96%;
-}
-
-.icon2 {
-    position: static;
-    left: 38.58%;
-    right: 59.16%;
-    top: 29.83%;
-    bottom: 60.96%;
-}
-
-.icon3 {
+.feature-box {
     position: relative;
-    left: 51.47%;
-    right: 46.27%;
-    top: 29.83%;
-    bottom: 60.96%;
+    width: 950px;
+    left: 50px;
+    align-items: center;
+    top: 10px;
+    ;
+}
+
+.para-text {
+    width: 100%;
+    text-align: center;
+}
+
+.card-flexbox {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 162px;
 
 }
 
-.icon4 {
+.card-item {
     position: relative;
-    left: 64.31%;
-    right: 33.42%;
-    top: 29.83%;
-    bottom: 60.96%;
-
+    width: 170px;
+    justify-items: left;
 }
+
 
 .btn-signupnow {
     position: static;
     height: 24px;
-
     width: 93px;
     left: 41px;
     top: 15px;
     border-radius: nullpx;
-
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 24px;
-    /* identical to box height */
-
-
     color: #FFFFFF;
     background: #FF9900;
     border-radius: 4px;
 }
 
-.effort {
-    position: relative;
-    width: 1110px;
-    height: 574px;
-    left: 145px;
-    
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    top: 800px;
 }
 
-.designprf {
+.flex-box-text {
+
+    width: 400px;
+
+}
+
+.flex-box-image {
     position: relative;
-    width: 1110px;
-    height: 574px;
-    left: 145px;
-    top: 1397px;
+    width: 400px;
+
+}
+
+.image {
+    position: relative;
+    width: 80%;
 }
 
 .text {
-    position: absolute;
-    width: 486px;
-    height: 531px;
-    left: 145px;
-    top: 1423px;
+
+    left: 10px;
+
 }
 
-.main-footer{
+.main-footer {
+    position: relative;
+    width: 60%;
+    top: 70px;
+    left: 40px;
     display: flex;
-    transform: translatepx(100px,100);
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-btn {
+    position: relative;
+    height: 24px;
+    width: 93px;
+    left: 10px;
+    top: 20px;
+    border-radius: nullpx;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #FF9900;
+    border-radius: 4px;
 }
