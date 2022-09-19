@@ -1,141 +1,126 @@
 body {
     position: relative;
     width: 100%;
-
-
     background: #FFFFFF;
 }
 
 .flex-head {
     position: relative;
-
-
+    width: 100%;
+    top: 20px;
     background: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-
 }
-
-.nav {
-    position: absolute;
-
-    height: 78px;
-    left: 0px;
-    top: 20px;
-
-}
-
-.flex-navitem {
-    position: relative;
-    height: 28px;
-    left: 46.43%;
-    right: 28.57%;
-    top: calc(50% - 28px/2 - 1px);
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 28px;
-    color: #2F281E;
-    display: inline-flex;
-    flex-wrap: initial;
-    align-items: flex-start;
-    flex-direction: row;
-    color: #2F281E;
-    transform: translateX(10px);
+.nav-text{
+position: relative;
+left: 15%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #2F281E;
+height: 40px;
+width: 300px;
 }
 
 .btn-signin {
-
     position: relative;
-    height: 24px;
+    height: 40px;
     width: 93px;
-    left: 41px;
-    top: 15px;
-    border-radius: nullpx;
+    left: 35px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 24px;
-    border-radius: 4px;
     color: #173A56;
-    transform: translateX(240px)
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    transform: translateX(240px);
+    border-width: thin;
 }
 
 .btn-signup {
     position: relative;
-    height: 24px;
+    height: 40px;
     width: 93px;
-    left: 41px;
-    top: 15px;
+    left: 35px;
     border-radius: nullpx;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
     background: #FF9900;
     border-radius: 4px;
     transform: translateX(250px);
+    border-color: transparent;
 
 }
 
 .headone {
+    width: 80%;
     height: 496px;
     left: 145px;
 }
 
 .leftside {
     position: absolute;
-    width: 300px;
+    width: 320px;
     height: 331px;
     left: 45px;
-    top: 128px;
+    top: 200px;
 }
 
 .btn-getstarted {
-    position: static;
-    height: 24px;
+    position: relative;
+    height: 40px;
     width: 93px;
-    left: 41px;
+    left: 5px;
     top: 15px;
     border-radius: nullpx;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
     background: #FF9900;
     border-radius: 4px;
+    border-color: transparent;
+    top: 50px;
 
 }
 
 .btn-watchvideo {
-
+    position: relative;
     width: 161px;
-    height: 23px;
+    height: 40px;
     border: none;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    background-color: #FFFFFF;
     text-decoration-line: underline;
     color: #FF9900;
+    top: 50px;
 }
 
 .design-img {
     position: relative;
-    width: 400px;
-    height: 250px;
+    width: 450px;
+    height: 300px;
     transform: translateX(350px);
     top: 100px;
+    left: 50px;
 }
 
 .feature-box {
@@ -143,8 +128,8 @@ body {
     width: 950px;
     left: 50px;
     align-items: center;
-    top: 10px;
-    ;
+    top: 20px;
+    height: 500px;
 }
 
 .para-text {
@@ -171,19 +156,21 @@ body {
 
 .btn-signupnow {
     position: static;
-    height: 24px;
-    width: 93px;
+    height: 40px;
+    width: 130px;
     left: 41px;
     top: 15px;
     border-radius: nullpx;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
     background: #FF9900;
     border-radius: 4px;
+    border-color: transparent;
+    align-self: center;
 }
 
 .flex-box {
@@ -194,9 +181,7 @@ body {
 }
 
 .flex-box-text {
-
-    width: 400px;
-
+ width: 400px;
 }
 
 .flex-box-image {
@@ -229,17 +214,18 @@ body {
 
 .footer-btn {
     position: relative;
-    height: 24px;
-    width: 93px;
+    height: 40px;
+    width: 130px;
     left: 10px;
     top: 20px;
     border-radius: nullpx;
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
+    font-style:normal;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
     background: #FF9900;
     border-radius: 4px;
+    border-color: transparent;
 }
